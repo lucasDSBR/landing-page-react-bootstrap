@@ -1,5 +1,5 @@
 import CardPlanPrice from '../../components/CardPlanPrice/CardPlanPrice';
-
+import IconDot from '../../assets/dot.svg';
 
 
 const dataCards = [
@@ -27,7 +27,11 @@ const dataCards = [
 
 function Home() {
   return (
+    
     <div class="container">
+      <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+          as
+      </div>
       <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
       <h1 class="display-4 fw-normal">Preços</h1>
       <p class="fs-5 text-muted">Cançado de utilizar papeis e várias planilhas para gerenciar pessoas, produtos, estoque e muitas outras coisas na sua empresa que acabam lhe deixando com muitas dores de cabeça ? Contrate agora mesmo um de nossos planos e acabe com tudo isso num estralar de dedos !</p>
